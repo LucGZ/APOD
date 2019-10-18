@@ -1,0 +1,154 @@
+
+h1{
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'futura', sans-serif;
+  font-size: 100px;
+  color: black;
+  margin-left: 2vw;
+}
+
+h2{
+  font-family: 'futura',sans-serif;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 2vw;
+}
+
+time{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 2vw;
+
+}
+
+p{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  margin-right: 25vw;
+  margin-left: 2vw;
+}
+
+#image-nasa{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#lineSeparator1{
+  display: block;
+  height:4px;
+  background:black;
+  border-bottom:1px solid #313030;
+}
+
+#lineSeparator2{
+  display: none;
+  height:4px;
+  background:black;
+  border-bottom:1px solid #313030;
+}
+
+a{
+  color:white;
+  font-family: 'futura',sans-serif;
+  text-transform: uppercase;
+}
+
+
+#lien{
+  display: block;
+  width: 398px;
+  height: auto;
+  padding: 15px;
+  background-color: black;
+  margin-bottom: 50px;
+  margin: 30px;
+  margin-left: 2vw;
+}
+
+#lien:hover{
+  background-color: grey;
+  color: black;
+}
+
+
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button {
+  display: inline-block;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100px;
+  height: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#form-date{
+  margin-left: 2vw;
+}
+
+#image-nasa{
+  box-shadow: 6px 6px 15px lightgrey;
+  margin-bottom: 30px;
+}
+
+input{
+  color: white;
+  border: none;
+  width: 150px;
+  height: auto;
+  padding: 15px;
+  background-color: black;
+  margin-bottom: 50px;
+  margin: 30px;
+  margin-left: 2vw;
+  font-family: 'futura',sans-serif;
+  font-size: 15px;
+  }
+
+}

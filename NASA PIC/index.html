@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NASA - APOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header> <!-- début header -->
+    <h1>Astronomy Picture <br> Of the Day</h1><!-- titre principal -->
+    <div id="lineSeparator1"></div>
+    <a id="lien" href="https://apod.nasa.gov/apod/astropix.html">https://apod.nasa.gov/apod/astropix.html</a><!-- lien vers le site NASA APOD avec l'attribut href -->
+
+    <form id="form"><!-- formulaire pour sélectionner la date -->
+        <input type="date" id="form-date"><!-- champ de texte de type date -->
+        <button class="button" style="vertical-align:middle"><span>GO</span></button><!-- bouton pour valider le formulaire -->
+    </form><!-- fin du formulaire -->
+    <link rel="stylesheet" href="styles.css">
+    </header> <!-- fin header -->
+
+    <iframe id="video-nasa" width=100% height=auto frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><!-- iframe pour charger la page du player Youtube -->
+    <figure><!-- puisqu'il s'agit d'un média nous utilisons la balise figure -->
+        <img id="image-nasa"> <!-- image de la figure -->
+        <br>
+        <div id="lineSeparator2"></div>
+        <figcaption><!-- figcaption est une balise enfant (c'est-à-dire contenue par) de la balise figure -->
+            <h2 id="image-titre"></h2><!-- titre de l'image -->
+            <a href="#"></a><!-- lien vers la source -->
+            <time id="image-date"></time><!-- balise time pour contenir la date -->
+            <p id="image-description"><!-- début de la description -->
+            </p><!-- fin de la description -->
+        </figcaption><!-- fin de la légende de l'image -->
+    </figure><!-- fin de la balise figure -->
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
